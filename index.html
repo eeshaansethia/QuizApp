@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="info-box">
+    <div class="info-box" id="info-box">
         <div class="info-title">
             <span>Lets Look at the Rules</span>
         </div>
@@ -23,12 +23,12 @@
         </div>
 
         <div class="buttons">
-            <button class="quit">Exit</button>
-            <button class="continue">Continue</button>
+            <button id="quit-btn1" class="quit">Exit</button>
+            <button class="continue" id="continue">Continue</button>
         </div>
     </div>
 
-    <div class="quiz-box">
+    <div class="quiz-box" id="quiz-box">
         <header>
             <div class="title">
                 Alante Quiz
@@ -39,35 +39,22 @@
             </div>
         </header>
         <section>
-            <div class="ques-text">
-                <span>Who was the first Prime Minister of India?</span>
+            <div class="ques-text" id="ques-text">
+                <!-- Questions -->
             </div>
             <div class="option-list">
-                <div class="option">
-                    <span>Md. Ali Jinnah</span>
-                    <div class="icon cross"><i class="fas fa-times"></i></div>
-                </div>
-                <div class="option">
-                    <span>Indira Gandhi</span>
-                </div>
-                <div class="option">
-                    <span>Jawahar Lal Nehru</span>
-                    <div class="icon tick"><i class="fas fa-check"></i></div>
-                </div>
-                <div class="option">
-                    <span>Lal Bahadur Shastri</span>
-                </div>
+
             </div>
         </section>
 
-    <footer>
-        <div class="total-ques">
-            <span>
+        <footer>
+            <div class="total-ques">
+                <!-- <span>
                 <p>2</p> of <p>5</p>Questions
-            </span>
-        </div>
-        <button class="next-btn">Next</button>
-    </footer>
+            </span> -->
+            </div>
+            <button class="next-btn" id="next-btn">Next</button>
+        </footer>
     </div>
 
     <div class="result-box">
@@ -85,9 +72,10 @@
 
             <button class="quit">Quit</button>
         </div>
-    </div> 
+    </div>
 
     <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 
 </html>

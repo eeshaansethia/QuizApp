@@ -241,6 +241,7 @@ footer .total-ques span p:first-child {
 }
 
 footer .next-btn {
+    display: none;
     padding: 1rem 2.5rem;
     font-size: 1.7rem;
     border-radius: .5rem;
@@ -275,6 +276,12 @@ footer .next-btn {
     transform: translate(-50%, -50%);
     opacity: 0;
     pointer-events: none;
+}
+
+.result-box.activeResult{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: all;
 }
 
 .result-box .icon {

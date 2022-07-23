@@ -123,8 +123,3 @@ function showResultBox() {
     let scoreTag = '<span>Your score is <p>' + userScore + '</p> out of <p>' + questions.length + '</p></span>'
     scoreText.innerHTML = scoreTag;
 }
-
-restart.addEventListener("click", () => {
-    info_box.classList.remove('inactive');
-    result_box.classList.remove('activeResult');
-});

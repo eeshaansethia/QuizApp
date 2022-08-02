@@ -112,6 +112,10 @@ function startTimer(time) {
         if (time < 0) {
             clearInterval(counter);
             timeCount.textContent = "00";
+            for (let j = 0; j < 4; j++) {
+                option_list.children[j].classList.add("disabled");
+            }
+            next_btn.style.display = "block";
         }
     }
 }

@@ -144,7 +144,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background: var(--black);
-    width: 11rem;
+    width: 12rem;
     padding: 0.7rem;
     border: var(--border);
     border-radius: 0.5rem;
@@ -208,7 +208,7 @@ body {
     background: rgb(188, 0, 0);
 }
 
-.option-list .option.disabled{
+.option-list .option.disabled {
     pointer-events: none;
 }
 
@@ -242,7 +242,7 @@ footer .total-ques span p:first-child {
 
 footer .next-btn {
     display: none;
-    padding: 1rem 2.5rem;
+    padding: 0.6rem 2.5rem;
     font-size: 1.7rem;
     border-radius: .5rem;
     color: var(--black);
@@ -278,7 +278,7 @@ footer .next-btn {
     pointer-events: none;
 }
 
-.result-box.activeResult{
+.result-box.activeResult {
     opacity: 1;
     transform: translate(-50%, -50%);
     pointer-events: all;
